@@ -1,0 +1,25 @@
+{
+  "E1": {
+    "em": 50.94,
+    "sql_validity": 88.99,
+    "execution_accuracy": 63.94,
+    "shr": 4.09,
+    "schema_hallucinations": 39
+  },
+  "E2": {
+    "em": 52.1,
+    "sql_validity": 89.73,
+    "execution_accuracy": 64.57,
+    "shr": 2.73,
+    "schema_hallucinations": 26
+  },
+  "E3": {
+    "em": 52.73,
+    "sql_validity": 91.93,
+    "execution_accuracy": 65.41,
+    "shr": 0.31,
+    "schema_hallucinations": 3
+  },
+  "total": 954,
+  "gold_executable": 910
+}

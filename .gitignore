@@ -1,0 +1,38 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+node_modules/
+frontend/dist/
+.vscode/
+.idea/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+# Spider databases
+database/spider/
+
+# ViText2SQL dataset
+data/train.json
+data/dev.json
+data/test.json
+data/tables.json
+
+# Model weights
+model/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Training checkpoints
+checkpoint-*/
+checkpoints/
+
+# Generated predictions and temporary artifacts
+artifacts/

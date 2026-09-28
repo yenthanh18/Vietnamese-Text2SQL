@@ -1,0 +1,8 @@
+-r requirements-web.txt
+
+# Future inference environment. Not needed for Web startup or /nlp/status.
+torch>=2.6,<3.0
+transformers>=4.52,<5.0
+peft>=0.19.1,<1.0
+accelerate>=1.0,<2.0
+# bitsandbytes is optional: install separately only for CUDA 4-bit loading.
